@@ -1,0 +1,50 @@
+a {
+   text-decoration: none;
+   color: var(--sl-primary);
+   cursor: pointer;
+   transition: all .4s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+}
+
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.text-primary {
+   color: var(--sl-primary) !important;
+}
+
+.btn-primary {
+   border-color: var(--sl-primary);
+   color: var(--sl-white);
+   background: var(--sl-primary);
+}
+
+img {
+   border-style: none;
+   height: auto;
+   max-width: 100%;
+   vertical-align: middle;
+}
+
+
+/*=== 01. Start: Slider Section  =====*/
+
+.banner-wrapper .banner-inner {
+   padding: 250px 50px;
+}
+
+.banner-wrapper  .title{
+   font-size: 70px;
+   font-weight: 800;
+}
