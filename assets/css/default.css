@@ -1,0 +1,50 @@
+/* Colors */
+:root {
+   --bd-white:#ffffff;
+   --bd-black:#000000;
+   --bd-primary:#ff5917; /*#ff5722 */
+   --bd-secondary:#f4f1ea;
+   --bd-border-dark:#dddddd;
+   --bd-border-light:#e9e9e9;
+   --bd-border-extra-light:#f2f2f2;
+   --bd-scrollbar-thumb:#c2c2c2;
+   --bd-font-sans-serif:"Poppins",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+   --bd-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+   --bd-shadow: 2px 5px 20px rgba(0, 0, 0, .2);
+   --bd-radius: 3px;
+   --bd-transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+/* ---//--- */
+
+/* --- Selection Colors --- */
+::-webkit-selection {
+   background-color: var(--bd-primary);
+   color: #ffffff;-webkit-text-fill-color: #ffffff;
+}
+
+::selection {
+   background-color: var(--bd-primary);
+   color: #ffffff;-webkit-text-fill-color: #ffffff;
+}
+
+/* ---//--- */
+
+/* --- Scrollbar Colors --- */
+
+::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+   background-color: var(--bd-border-extra-light);
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: var(--bd-scrollbar-thumb);
+   border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+   background-color: var(--bd-border-extra-light);
+}
+
+/* ---//--- */
